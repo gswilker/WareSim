@@ -4,7 +4,7 @@
 JanelaInserir::JanelaInserir()
     : janela(sf::VideoMode({ 760u, 700u }), "Inserir")
 {
-    if (!fonte.openFromFile("C:/Windows/Fonts/arial.ttf"))
+    if (!fonte.openFromFile("arial.ttf"))
     {
         janela.close();
         return;

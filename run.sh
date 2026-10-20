@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-cd "$(dirname "$0")"
-g++ main.cpp -o app && ./app
+cd "$(dirname "$0")/Prototipo"
+g++ -std=c++17 *.cpp -o app -lsfml-graphics -lsfml-window -lsfml-system && ./app

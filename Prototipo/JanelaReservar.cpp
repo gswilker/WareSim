@@ -4,7 +4,7 @@
 JanelaReservar::JanelaReservar()
     : janela(sf::VideoMode({ 700u, 570u }), "Reservar")
 {
-    if (!fonte.openFromFile("C:/Windows/Fonts/arial.ttf"))
+    if (!fonte.openFromFile("arial.ttf"))
         janela.close();
 }
 

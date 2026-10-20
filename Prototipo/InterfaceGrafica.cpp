@@ -10,7 +10,7 @@ InterfaceGrafica::InterfaceGrafica() :
     janela(sf::VideoMode({ static_cast<unsigned int>(largura), static_cast<unsigned int>(altura) }),titulo),
     exemploVisivel(false) // Temporario
 {
-    if (!fonte.openFromFile("C:/Windows/Fonts/arial.ttf"))
+    if (!fonte.openFromFile("arial.ttf"))
     {
         // A janela ainda abre, mas os textos não serão desenhados.
     }

@@ -5,7 +5,7 @@
 JanelaRemover::JanelaRemover()
     : janela(sf::VideoMode({ 700u, 570u }), "Remover")
 {
-    if (!fonte.openFromFile("C:/Windows/Fonts/arial.ttf"))
+    if (!fonte.openFromFile("arial.ttf"))
         janela.close();
 }
 
